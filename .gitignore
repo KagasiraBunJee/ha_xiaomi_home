@@ -1,0 +1,11 @@
+.devcontainer/hass-config/*
+!.devcontainer/hass-config/.gitkeep
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.DS_Store
+__pycache__/
+*.py[cod]
+*.db
+*.db-*

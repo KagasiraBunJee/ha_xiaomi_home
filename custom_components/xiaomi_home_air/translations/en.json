@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Xiaomi Home Devices",
+        "description": "Choose the Xiaomi Home cloud region used by your devices.",
+        "data": {
+          "region": "Region"
+        }
+      },
+      "auth": {
+        "title": "Authorize Xiaomi Home",
+        "description": "Open this URL and sign in. Xiaomi will redirect to `http://homeassistant.local:8123`; paste the final redirected URL or only the `code` value here:\n\n{auth_url}",
+        "data": {
+          "code": "OAuth code or redirected URL"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to authenticate with Xiaomi Home.",
+      "missing_code": "No OAuth code was found."
+    },
+    "abort": {
+      "already_configured": "This Xiaomi Home account and region are already configured."
+    }
+  }
+}
