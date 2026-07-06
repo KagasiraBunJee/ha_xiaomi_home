@@ -42,6 +42,17 @@ docker run --rm -it \
   sh -c 'sh .devcontainer/post-create.sh && python -m homeassistant -c .devcontainer/hass-config --debug'
 ```
 
+## HACS
+
+Add this repository to HACS as a custom repository of type `Integration`:
+
+```text
+KagasiraBunJee/ha_xiaomi_home
+```
+
+Install a tagged release such as `v0.1.0`; installing directly from an
+unversioned branch/commit can make HACS see a commit hash as the version.
+
 ## License
 
 This project is licensed under the MIT License. Xiaomi, Xiaomi Home, Mijia, and
